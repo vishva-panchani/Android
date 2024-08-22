@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".JaipurActivity">
+
+    <ImageView
+        android:id="@+id/imageViewJ"
+        android:layout_width="match_parent"
+        android:layout_height="270dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="53dp"
+        app:srcCompat="@drawable/jaipur" />
+
+    <TextView
+        android:id="@+id/textViewJa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="150dp"
+        android:layout_marginBottom="354dp"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:text="JAIPUR"
+        android:textSize="30dp"
+        android:textColor="@android:color/holo_orange_light"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewJ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-4dp"
+        android:layout_marginBottom="136dp"
+        android:gravity="center"
+        android:fontFamily="serif"
+        android:textColor="@android:color/holo_orange_light"
+        android:text="aipur is the capital of India’s Rajasthan state. It evokes the royal family that once ruled the region and that, in 1727, founded what is now called the Old City, or “Pink City” for its trademark building color. At the center of its stately street grid (notable in India) stands the opulent, colonnaded City Palace complex"
+        android:textSize="20dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="173dp"
+        android:layout_marginBottom="29dp"
+        app:srcCompat="@android:drawable/ic_menu_revert" />
+
+</RelativeLayout>

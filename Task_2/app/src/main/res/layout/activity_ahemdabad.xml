@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AhemdabadActivity">
+
+    <ImageView
+        android:id="@+id/imageViewA"
+        android:layout_width="match_parent"
+        android:layout_height="270dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="68dp"
+        app:srcCompat="@drawable/ahemdabad" />
+
+    <TextView
+        android:id="@+id/textViewAh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="113dp"
+        android:layout_marginBottom="331dp"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:text="AHEMDABAD"
+        android:textSize="30dp"
+        android:textColor="@color/material_dynamic_tertiary30"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-1dp"
+        android:layout_marginBottom="132dp"
+        android:gravity="center"
+        android:textColor="@color/material_dynamic_tertiary30"
+        android:fontFamily="serif"
+        android:text="Ahmedabad, in western India, is the largest city in the state of Gujarat. The Sabarmati River runs through its center. On the western bank is the Gandhi Ashram at Sabarmati, which displays the spiritual leader’s living quarters and artifacts."
+        android:textSize="20dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="173dp"
+        android:layout_marginBottom="29dp"
+        app:srcCompat="@android:drawable/ic_menu_revert" />
+
+
+</RelativeLayout>

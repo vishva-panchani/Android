@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RajkotActivity">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="270dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="48dp"
+        app:srcCompat="@drawable/rajkot" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="146dp"
+        android:layout_marginBottom="360dp"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:text="RAJKOT"
+        android:textColor="@color/black"
+        android:shadowColor="@color/material_dynamic_neutral20"
+        android:shadowRadius="10"
+        android:shadowDx="20"
+        android:shadowDy="10"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="147dp"
+        android:gravity="center"
+        android:fontFamily="serif"
+        android:textColor="@color/black"
+        android:text="Rajkot, a bustling city in the state of Gujarat, India, is a treasure trove of cultural heritage, historical landmarks, and vibrant experiences. Whether you're a history enthusiast, nature lover, or simply looking for a fun-filled outing with your family, Rajkot has something for everyone."
+        android:textSize="20dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="179dp"
+        android:layout_marginBottom="28dp"
+        android:backgroundTint="@color/material_dynamic_primary20"
+        android:padding="20dp"
+        app:srcCompat="@android:drawable/ic_menu_revert" />
+
+
+</RelativeLayout>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blur_1"
+    tools:context=".UrlActivity">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="220dp"
+        android:autoLink="web"
+        android:gravity="center"
+        android:text="Click to google link\n www.google.com"
+        android:textColorLink="@color/design_default_color_primary_dark"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.528"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="76dp"
+        android:autoLink="email"
+        android:gravity="center"
+        android:text="Click to mail\n vkp12@gmail.com"
+        android:textColorLink="@color/design_default_color_primary_dark"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.541"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView1" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="72dp"
+        android:autoLink="phone"
+        android:gravity="center"
+        android:text="Click to call\n 9632587413"
+        android:textColorLink="@color/design_default_color_primary_dark"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:shadowColor="@color/material_dynamic_primary40"
+        android:shadowDx="30"
+        android:shadowDy="30"
+        android:shadowRadius="20"
+        android:text="URL"
+        android:textColor="@color/material_dynamic_primary20"
+        android:textSize="60dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="142dp"
+        tools:layout_editor_absoluteY="91dp" />
+
+
+
+    <!--    <ImageButton-->
+<!--        android:id="@+id/imageButton2"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginBottom="26dp"-->
+<!--        android:background="@color/material_dynamic_tertiary40"-->
+<!--        android:padding="20dp"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:srcCompat="@android:drawable/ic_menu_revert" />-->
+</androidx.constraintlayout.widget.ConstraintLayout>
