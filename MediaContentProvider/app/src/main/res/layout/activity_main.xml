@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!-- GridView for displaying images -->
+    <GridView
+        android:id="@+id/grid_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:columnWidth="150dp"
+        android:numColumns="auto_fit"
+        android:verticalSpacing="10dp"
+        android:horizontalSpacing="10dp"
+        android:stretchMode="columnWidth"
+        android:gravity="center"
+        android:layout_marginBottom="8dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"/>
+
+    <!-- GridLayout for additional images and an ImageView -->
+    <GridLayout
+        android:id="@+id/grid_view2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:rowCount="2"
+        android:columnCount="3">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_row="0"
+            android:padding="5dp"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:src="@drawable/rose" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:padding="5dp"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:layout_columnWeight="1"
+            android:src="@drawable/rose" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:padding="5dp"
+            android:layout_row="0"
+            android:layout_column="2"
+            android:layout_columnWeight="1"
+            android:src="@drawable/rose" />
+
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_row="1"
+            android:padding="5dp"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:src="@drawable/rose" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:padding="5dp"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:layout_columnWeight="1"
+            android:src="@drawable/rose" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:padding="5dp"
+            android:layout_row="1"
+            android:layout_column="2"
+            android:layout_columnWeight="1"
+            android:src="@drawable/rose" />
+    </GridLayout>
+
+
+</RelativeLayout>
